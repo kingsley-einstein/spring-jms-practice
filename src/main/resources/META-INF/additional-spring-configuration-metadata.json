@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "p.jms.queue",
+  "type": "java.lang.String",
+  "description": "The JMS queue to listen to"
+}]}
