@@ -7,6 +7,8 @@ public class IMessage implements java.io.Serializable {
  private String actualMessage;
  private UUID id;
 
+ public IMessage() {}
+
  public IMessage(String actualMessage, UUID id) {
   this.actualMessage = actualMessage;
   this.id = id;
